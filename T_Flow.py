@@ -28,7 +28,7 @@ class MyTask(db.Model):
 
 
 # POST MEANS SEND DATA AND GET MEANS RECIEVE DATA
-@app.route("/", methods=["POST", "GET"])
+@app.route("/", methods=["POST", "GET"])  # WHAT DOES THIS MEAN??!!
 def index():
     # Add tasks
     if request.method == "POST":
